@@ -7,7 +7,9 @@ authors = [
     { name = "ramazan", email = "coolstoves@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "jupyterlab>=4.5.3",
+]
 
 [project.scripts]
 pytontest = "pytontest:main"
